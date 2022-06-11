@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.mainBox {
+    margin: 5 auto;
+    display: flex;
+    margin: 100px 0;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    /* width: 200px;     */
+    height: 390px;
+    width: 50%;
+    /* padding: 0; */
+    background-color: white;
+    align-items: center;
+}
+
+.mainBox h1 {
+    margin-top: 15px;
+}
+
+.mainBox button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+}
+
+.finalBox {
+    width: 100%;
+    /* padding: 0 20px; */
+    padding: 30px 20px;
+    padding-bottom: 0%;
+    font-weight: bold;
+    font-size: 1.7em;
+    display: none;
+}
+
+.initalForm{
+    width: 100%;
+    /* padding: 0 20px; */
+    padding: 30px 20px;
+    padding-bottom: 0%;
+    font-weight: bold;
+    font-size: 1.7em;
+
+}
+.initalForm input{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1em;
+    padding: 25px;
+}
+
+.main2Box {
+    /* border: 1px solid black; */
+    /* padding: 5px; */
+    width: 100%;
+    padding: 0 20px;
+    display: none;
+    /* visibility: visible; */
+}
+
+.main2Box li {
+    list-style: none;
+    /* padding: 5px; */
+    /* border: 1px solid black; */
+    background-color: rgb(242, 242, 242);
+    margin: 4px 15px;
+    padding: 15px 10px;
+}
+
+.main2Box h1 {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.main2Box p {
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 1.7em;
+    /* border: 1px solid black; */
+}
+
+.main2Box button {
+    padding: 5px;
+    margin: 5px auto;
+}
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.quizBox{
+    width: 40%;
+    border: 1px solid black;
+
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+.quizBody{
+    width: 100%;
+    padding: 8px;
+}
+.quizBody div{
+    margin: 20px 0;
+}
+.quizBody li{
+    list-style: none;
+    margin: 20px 0;
+    border: 1px solid black;
+    padding: 7px;
+    cursor: pointer;
+    
+}
+.quizBody li:hover{
+    background-color: grey;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-top: 1px solid black ;
+    align-items: center ;
+}
+.footer button{
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+}
+#resultBox{
+    display: none;
+} */

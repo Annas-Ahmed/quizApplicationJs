@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+
+        <main class="mainBox">
+            <h1>
+                Quiz Application
+            </h1>
+
+            <div class="initalForm" id="initialForm">
+
+                <input type="text" id="inputName" placeholder="enter your name">
+            </div>
+
+            <div class="finalBox" id="finalBox">
+                <p>
+                    Final Result
+                </p>
+                <p>
+                    Name : <small></small>
+                </p>
+                <p>
+                    Score: <small></small>
+                </p>
+
+            </div>
+
+
+            <div class="main2Box" id="main2Box">
+                <!-- <h1>
+                Question1
+                
+            </h1> -->
+
+                <p id="question">
+                </p>
+
+                <ul id="options">
+                    <li onclick="checkAnswer(this)">
+                    </li>
+                    <li onclick="checkAnswer(this)">
+                    </li>
+                    <li onclick="checkAnswer(this)">
+                    </li>
+                    <li onclick="checkAnswer(this)">
+                    </li>
+                </ul>
+            </div>
+            <button onclick="nextQuestion()">Next</button>
+        </main>
+    </section>
+
+    <!-- 
+    <section class="mainBox">
+
+        <section class="quizBox">
+
+            <div class="header">
+
+                <span>Jaffar Aman</span>
+                <span id="min">15</span>
+                <span id="">:</span>
+                <span id="sec">00</span>
+
+            </div>
+            <div class="quizBody">
+                <div>
+                    <h4 id="question"></h4>
+                </div>
+                <div>
+                    <li class="Quizoption"></li>
+                    <li class="Quizoption"></li>
+                    <li class="Quizoption"></li>
+                    <li class="Quizoption"></li>
+                </div>
+
+
+            </div>
+            <div class="footer">
+                <div>
+                    1/7
+
+                </div>
+                <div>
+                    <button id="nextBtn" onclick="nextQues()">NEXT QUES</button>
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+    </section>
+
+    <section id="resultBox">
+
+        <div>
+            <span>NAME</span>
+            <span>Jaffar</span>
+        </div>
+
+
+        <div>
+            <span>TOTaL QUES</span>
+            <span id="totalQues"></span>
+        </div>
+
+        <div>
+            <span>CORRECT</span>
+            <span id="correctAns"></span>
+        </div>
+
+        <div>
+            <span>WRONG</span>
+            <span id="wrongQues"></span>
+        </div>
+
+    </section> -->
+
+</body>
+<script src="app.js"></script>
+
+</html>
